@@ -1,0 +1,11 @@
+
+<div class = 'container'>
+   <button (click) = "prev()">prev</button>
+   <div class = 'card'  *ngIf = "cards[currentCardIndex-1] !== undefined">
+        {{cards[currentCardIndex-1]}}
+   </div>
+   <div class = 'card' *ngIf = "cards[currentCardIndex] !== undefined">
+        {{cards[currentCardIndex]}}
+   </div>
+   <button (click) = "next()">next</button>
+</div>

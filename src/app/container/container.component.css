@@ -1,0 +1,21 @@
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    text-align: center;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 80%;
+    width: 30%;
+}
+
+button {
+    height: 25px;
+}
+
